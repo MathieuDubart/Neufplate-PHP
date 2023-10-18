@@ -36,3 +36,7 @@ $user = $builder
     ->build();
 
 echo $user;
+
+echo "\n";
+
+echo sha1("0#Bonjour");

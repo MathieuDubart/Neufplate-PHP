@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d44220be-d25e-4df6-b703-3294caed4ffe" name="Changes" comment="" />
+    <list default="true" id="d44220be-d25e-4df6-b703-3294caed4ffe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/NFT/CorporateBsClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NFT/Nft.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
       <executable path="composer" />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -22,6 +29,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2Wvhv6kDpjWHhDTlDw2gXMCEN4n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,11 +78,22 @@
       <workItem from="1697620599823" duration="795000" />
       <workItem from="1697621447264" duration="258000" />
       <workItem from="1697621709106" duration="142000" />
-      <workItem from="1697621855841" duration="6926000" />
+      <workItem from="1697621855841" duration="8553000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
