@@ -17,6 +17,10 @@ class CorporateBsClient {
         return self::$_instance;
     }
 
+    public static function generateCorporateBs(): string {
+        return self::parseJson(self::makeRequest());
+    }
+
     private static function makeRequest(): string {
         return file_get_contents(self::apiUrl);
     }

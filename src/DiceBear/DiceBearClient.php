@@ -26,7 +26,7 @@ class DiceBearClient implements AvatarClientInterface
         return self::$_apiUrl . self::$_spriteType . "/svg?seed=" . rand(0, 10000);
     }
 
-    public function getAvatarFromUrl(string $seed): string  {
+    public function getAvatarFromUrl(string $seed, ): string  {
         return self::$_apiUrl . self::$_spriteType . "/svg?seed=" . $seed;
     }
     function setSpriteType(SpriteTypeDiceBear $newSpriteType)

@@ -1,16 +1,15 @@
 <?php
 
-// -- DiceBear
 use App\DiceBear\DiceBearAvatar;
-// -- RobotHash
 use App\DiceBear\DiceBearClient;
+use App\Neufplate;
+use App\Provider\Provider;
 use App\RobotHash\RobotHashAvatar;
 use App\RobotHash\RobotHashClient;
-// -- SpriteTypes
 use App\DiceBear\SpriteTypeDiceBear;
 use App\RobotHash\SpriteTypeRobotHash;
-// -- User
 use App\User\UserBuilder;
+use App\Provider\ProviderEnum;
 
 require __DIR__ . "/vendor/autoload.php";
 
@@ -39,4 +38,8 @@ echo $user;
 
 echo "\n";
 
-echo sha1("0#Bonjour");
+$provider = new Provider(ProviderEnum::ROBOTHASH, SpriteTypeRobotHash::HEADS);
+$neufplate = new Neufplate();
+$nft = $neufplate->process($user, $provider);
+
+echo "LE NFT LOL " . $nft->title . " - " . $nft->hash . " - " . $nft->avatar->url;
