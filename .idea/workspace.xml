@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d44220be-d25e-4df6-b703-3294caed4ffe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Neufplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Provider/Provider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Provider/ProviderEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/States/GeneratingClassState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/States/MakingCollisionState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/States/State.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/States/TitlingState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiceBear/DiceBearAvatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiceBear/DiceBearAvatar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiceBear/DiceBearClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiceBear/DiceBearClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NFT/CorporateBsClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NFT/CorporateBsClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RobotHash/RobotHashAvatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotHash/RobotHashAvatar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/States/GeneratingClassState.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/GeneratingClassState.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +26,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.5/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2Wvhv6kDpjWHhDTlDw2gXMCEN4n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,22 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mathieudubart/Desktop/Gobelins/B3/Design_Pattern/NeufplatePHP&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mathieudubart/Desktop/Gobelins/B3/Design_Pattern/NeufplatePHP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;EditorConfig&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "EditorConfig"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/User" />
@@ -93,6 +94,8 @@
       <workItem from="1697621709106" duration="142000" />
       <workItem from="1697621855841" duration="8553000" />
       <workItem from="1697697564899" duration="12980000" />
+      <workItem from="1697715608523" duration="2648000" />
+      <workItem from="1697730676037" duration="5075000" />
     </task>
     <servers />
   </component>

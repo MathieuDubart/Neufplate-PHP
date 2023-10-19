@@ -37,7 +37,7 @@ class GeneratingClassState extends State
         }
         $avatar->generate($this->neufplate->nft->hash);
         $this->neufplate->nft->avatar = $avatar;
-        array_push($this->neufplate->user->nftList, $avatar);
+        array_push($this->neufplate->user->nftList, $this->neufplate->nft);
         return $avatar->url;
     }
 }
