@@ -3,6 +3,7 @@
 namespace App\States;
 
 use App\Neufplate;
+use App\NotificationsListeners\EmailNotificationsListeners;
 
 class MakingCollisionState extends State
 {
@@ -19,15 +20,19 @@ class MakingCollisionState extends State
 
     function onMakingCollision(): ?string
     {
+        $this->attach(new EmailNotificationsListeners($this->neufplate->user, $this->neufplate->nft));
         $nonce = 0;
         $hash = "";
 
-        while (!str_starts_with($hash, "0000")) {
+        while (!str_starts_with($hash, "00000")) {
             $hash = sha1($nonce . "#" . $this->neufplate->nft->title);
             $nonce += 1;
         }
 
         $this->neufplate->nft->hash = $hash;
+        $this->neufplate->nft->nonce = $nonce;
+
+        $this->notify();
         $this->neufplate->changeState(new GeneratingClassState($this->neufplate));
         $this->neufplate->state->onGenerate();
         return $hash;

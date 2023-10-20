@@ -19,6 +19,7 @@ class TitlingState extends State
         $nftTitle = CorporateBsClient::getInstance()->generateCorporateBs();
         $this->neufplate->nft->title = $nftTitle;
 
+
         $this->neufplate->changeState(new MakingCollisionState($this->neufplate));
         $this->neufplate->state->onMakingCollision();
         return $nftTitle;

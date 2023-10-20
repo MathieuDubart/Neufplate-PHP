@@ -3,6 +3,8 @@
 use App\DiceBear\DiceBearAvatar;
 use App\DiceBear\DiceBearClient;
 use App\Neufplate;
+use App\NotificationsListeners\EmailNotificationsListeners;
+use App\NotificationsListeners\MessageNotificationsListeners;
 use App\Provider\Provider;
 use App\RobotHash\RobotHashAvatar;
 use App\RobotHash\RobotHashClient;
@@ -31,7 +33,7 @@ $builder = new UserBuilder();
 $user = $builder
     ->addNames("John", "Doe")
     ->addAddress("Fake address 1234")
-    ->addEmail("damien@dabernat.fr")
+    ->addEmail("example@gmail.fr")
     ->build();
 
 echo $user;
@@ -40,6 +42,6 @@ echo "\n";
 
 $provider = new Provider(ProviderEnum::ROBOTHASH, SpriteTypeRobotHash::HEADS);
 $neufplate = new Neufplate();
-$nft = $neufplate->process($user, $provider);
 
+$nft = $neufplate->process($user, $provider);
 echo "LE NFT LOL " . $nft->title . " - " . $nft->hash . " - " . $nft->avatar->url;
