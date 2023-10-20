@@ -4,7 +4,7 @@ namespace App\States;
 
 use App\DiceBear\DiceBearAvatar;
 use App\Neufplate;
-use App\Provider\ProviderEnum;
+use App\NFT\Provider\ProviderEnum;
 use App\RobotHash\RobotHashAvatar;
 
 class GeneratingClassState extends State

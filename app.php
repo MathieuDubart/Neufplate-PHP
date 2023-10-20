@@ -1,10 +1,10 @@
 <?php
 
 use App\Neufplate;
-use App\Provider\Provider;
+use App\NFT\Provider\Provider;
+use App\NFT\Provider\ProviderEnum;
 use App\RobotHash\SpriteTypeRobotHash;
 use App\User\UserBuilder;
-use App\Provider\ProviderEnum;
 
 require __DIR__ . "/vendor/autoload.php";
 

@@ -3,7 +3,7 @@
 namespace App;
 
 use App\NFT\Nft;
-use App\Provider\Provider;
+use App\NFT\Provider\Provider;
 use App\States\State;
 use App\States\TitlingState;
 use App\User\User;
@@ -12,7 +12,7 @@ class Neufplate {
     public State $state;
     public Nft $nft;
     public Provider $provider;
-    public User$user;
+    public User $user;
 
     function __construct()
     {

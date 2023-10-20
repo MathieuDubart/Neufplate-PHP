@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Provider;
+namespace App\NFT\Provider;
 
 enum ProviderEnum {
     case DICEBEAR;

@@ -7,12 +7,11 @@
     <list default="true" id="d44220be-d25e-4df6-b703-3294caed4ffe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Provider/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/Provider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Provider/ProviderEnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/ProviderEnum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RobotHash/RobotHashClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotHash/RobotHashClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Neufplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Neufplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NFT/Provider/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/ProviderEnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NFT/Provider/ProviderEnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/States/GeneratingClassState.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/GeneratingClassState.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/States/MakingCollisionState.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/MakingCollisionState.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/States/TitlingState.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/TitlingState.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/UserBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserBuilder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +100,7 @@
       <workItem from="1697697564899" duration="12980000" />
       <workItem from="1697715608523" duration="2648000" />
       <workItem from="1697730676037" duration="5708000" />
+      <workItem from="1697806673439" duration="2728000" />
     </task>
     <servers />
   </component>

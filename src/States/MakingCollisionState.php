@@ -23,10 +23,11 @@ class MakingCollisionState extends State
     {
         $this->attach(new EmailNotificationsListeners($this->neufplate->user, $this->neufplate->nft));
         $this->attach(new MessageNotificationsListeners($this->neufplate->user, $this->neufplate->nft));
+
         $nonce = 0;
         $hash = "";
 
-        while (!str_starts_with($hash, "00000")) {
+        while (!str_starts_with($hash, "0000")) {
             $hash = sha1($nonce . "#" . $this->neufplate->nft->title);
             $nonce += 1;
         }
