@@ -3,7 +3,6 @@
 namespace App\User;
 
 use Error;
-use App\User\BuilderInterface;
 
 class UserBuilder implements BuilderInterface
 {

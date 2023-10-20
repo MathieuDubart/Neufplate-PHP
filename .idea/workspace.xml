@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44220be-d25e-4df6-b703-3294caed4ffe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NotificationsListeners/EmailNotificationsListeners.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NotificationsListeners/MessageNotificationsListeners.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NFT/Nft.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NFT/Nft.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/ProviderEnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/ProviderEnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotHash/RobotHashClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotHash/RobotHashClient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/States/MakingCollisionState.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/MakingCollisionState.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/States/State.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/State.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/States/TitlingState.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/TitlingState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/UserBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserBuilder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

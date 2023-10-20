@@ -4,7 +4,6 @@ namespace App\States;
 
 use App\Neufplate;
 use App\NFT\CorporateBsClient;
-use App\States\MakingCollisionState;
 
 class TitlingState extends State
 {

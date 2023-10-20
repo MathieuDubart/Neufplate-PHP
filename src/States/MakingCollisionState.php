@@ -4,6 +4,7 @@ namespace App\States;
 
 use App\Neufplate;
 use App\NotificationsListeners\EmailNotificationsListeners;
+use App\NotificationsListeners\MessageNotificationsListeners;
 
 class MakingCollisionState extends State
 {
@@ -21,6 +22,7 @@ class MakingCollisionState extends State
     function onMakingCollision(): ?string
     {
         $this->attach(new EmailNotificationsListeners($this->neufplate->user, $this->neufplate->nft));
+        $this->attach(new MessageNotificationsListeners($this->neufplate->user, $this->neufplate->nft));
         $nonce = 0;
         $hash = "";
 

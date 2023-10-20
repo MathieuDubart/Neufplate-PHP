@@ -2,7 +2,6 @@
 namespace App\RobotHash;
 
 use App\Avatar\AvatarClientInterface;
-use App\RobotHash\SpriteTypeRobotHash;
 
 class RobotHashClient implements AvatarClientInterface {
     private static $_instance = null;
